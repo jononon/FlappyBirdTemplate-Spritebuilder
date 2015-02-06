@@ -17,6 +17,7 @@
 
 -(void)touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event {
     [character flap];
+    [self addObstacle];
 }
 
 @end
